@@ -20,6 +20,7 @@ const StyledCard = styled.div`
     background-color: #2563eb;
     width: 9rem;
     height: 2.5rem;
+    border:3px solid blue;
   }
 
   .text-white {
@@ -38,7 +39,7 @@ const StyledCard = styled.div`
 const Card = () => {
   return (
     <StyledCard>
-      <div className="flex justify-center bg-orange-950">
+      <div className="flex justify-center bg-slate-500 ">
         <div className="flex flex-row">
           <h1 className="flex text-white left-48">Setting a DisplayName for you React<br/> styled-components</h1>
           <div className="card">
