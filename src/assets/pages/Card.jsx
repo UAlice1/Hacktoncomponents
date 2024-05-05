@@ -42,7 +42,7 @@ const Card = () => {
       <div className='flex  flex-col  bg-[#ffbb99] h-svh '>
         
         <div className='text-white mt-10 ml-[650px]'>
-       <img src='./src/assets/pages/download.jpg'></img><br/><br/>
+       <img src='./src/assets/pages/downloads.jpg'></img><br/><br/>
        <h1>Setting a DisplayName for you React </h1>
        <p className='ml-12'>styled-components</p>
        </div>
