@@ -39,21 +39,28 @@ const StyledCard = styled.div`
 const Card = () => {
   return (
     <StyledCard>
-      <div className="flex justify-center bg-slate-500 ">
-        <div className="flex flex-row">
-          <h1 className="flex text-white left-48">Setting a DisplayName for you React<br/> styled-components</h1>
-          <div className="card">
-            <h2 className="text-black"><HiBadgeCheck/>A clearly named container component</h2>
-            <p>Go ahead and inspect me with the<br/>React Developer Tools!</p>
-            <button className="button"><h1 className="text-white text-15">Give me a click!</h1></button>
-          </div>
-          <div className="card">
+      <div className='flex  flex-col  bg-[#ffbb99] h-svh '>
+        
+        <div className='text-white mt-10 ml-[650px]'>
+       <img src='./src/assets/pages/download.jpg'></img><br/><br/>
+       <h1>Setting a DisplayName for you React </h1>
+       <p className='ml-12'>styled-components</p>
+       </div>
+       <div className='flex flex-row mr-56 ml-[500px]'>
+       <div className="card size-60 ">
             <h2 className="text-black"><PiSmileyStickerBold/>I don't have a displayName</h2>
             <p>Go ahead and inspect me with the<br/>React Developer Tools!</p>
             <button className="button"><h1 className="text-white text-15">Don't click me</h1></button>
-          </div>
-        </div>
-      </div>
+            </div>
+            <div className="card size-60 ">
+            <h2 className="text-black"><HiBadgeCheck/>I don't have a displayName</h2>
+            <p>Go ahead and inspect me with the<br/>React Developer Tools!</p>
+            <button className="button"><h1 className="text-white text-15">Don't click me</h1></button>
+            </div>
+
+    
+
+      </div></div>
     </StyledCard>
   );
 };
